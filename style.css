@@ -109,3 +109,20 @@ body{
     bottom: 50px;
     opacity: 1;
 }
+
+@media (max-width: 575.98px) {
+    .logo{
+        max-width: 300px;
+        margin-bottom: 24px;
+    }
+    .container-input{
+        max-width: 370px;
+        margin: 14px 0;
+        text-align: center;
+    }
+
+    .container-password {
+        max-width: 380px;
+        margin: 10px 0;
+    }
+}
